@@ -64,7 +64,7 @@ public class AnalysisResult {
             result.add("");
         }
         result.add(LINE_SEPARATOR);
-        result.add(String.format("End of the test %s: ", fileName));
+        result.add(String.format("End of the test %s ", fileName));
         result.add(LINE_SEPARATOR);
         
         return result.toArray(new String[result.size()]);
